@@ -1,0 +1,12 @@
+yarn add v1.22.19
+[1/4] Resolving packages...
+warning @storybook/vue3-webpack5 > @storybook/preset-vue3-webpack > vue-docgen-loader > querystring@0.2.1: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+warning @storybook/vue3-webpack5 > @storybook/preset-vue3-webpack > vue-docgen-loader > jscodeshift > micromatch > snapdragon > source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+warning @storybook/vue3-webpack5 > @storybook/preset-vue3-webpack > vue-docgen-loader > jscodeshift > micromatch > snapdragon > source-map-resolve > resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+warning @storybook/vue3-webpack5 > @storybook/preset-vue3-webpack > vue-docgen-loader > jscodeshift > micromatch > snapdragon > source-map-resolve > source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+warning @storybook/vue3-webpack5 > @storybook/preset-vue3-webpack > vue-docgen-loader > jscodeshift > micromatch > snapdragon > source-map-resolve > urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+warning @storybook/vue3-webpack5 > @storybook/builder-webpack5 > fork-ts-checker-webpack-plugin > memfs@3.6.0: this will be v4
+[2/4] Fetching packages...
+error lru-cache@8.0.5: The engine "node" is incompatible with this module. Expected version ">=16.14". Got "16.13.0"
+error Found incompatible module.
+info Visit https://yarnpkg.com/en/docs/cli/add for documentation about this command.
