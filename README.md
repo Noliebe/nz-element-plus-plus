@@ -1,13 +1,7 @@
 # element-plus-tree-min
 
 
-## 仿写element-plus的 el-tree 并改变
-
-目前是最小实现
-点击展示下一级
-
-
-![Alt text](image.png)
+## 基于element-plus封装的业务组件
 
 ## Project setup
 ```

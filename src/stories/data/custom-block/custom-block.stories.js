@@ -1,17 +1,12 @@
 // customBlock.stories.ts|tsx
 
-import customBlock from '../components/customBlock';
+import customBlock from '../../../components/custom-block';
 import block from './block.mdx';
 
 export default {
+  title: 'demo/CustomBlock',
   component: customBlock,
   tags: ['autodocs'],
-};
-
-export const FirstStory = {
-  args: {
-    title: '我是标题',
-  },
 };
 
 export const 调用展示 = (args) => ({ // 渲染组件
@@ -25,6 +20,9 @@ export const 调用展示 = (args) => ({ // 渲染组件
 });
 
 export const Expriment = () => ({ // 渲染组件
+  args: {
+    title: '我是标题',
+  },
   docs: {
     page: block,
   },

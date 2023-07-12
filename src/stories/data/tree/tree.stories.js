@@ -1,9 +1,9 @@
 // import MyButton from '@/components/button/button.vue';
-import ledgerTree from '../../components/ledgerTree';
+import ledgerTree from '../../../components/ledger-tree';
 
 // More on how to set up stories at: https://storybook.js.org/docs/vue/writing-stories/introduction
 export default {
-  title: 'demo/ledgerTree',
+  title: 'data/ledgerTree',
   component: ledgerTree,
   tags: ['autodocs'],
   argTypes: {

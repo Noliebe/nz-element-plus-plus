@@ -1,10 +1,10 @@
 // import MyButton from '@/components/button/button.vue';
-import MyButton from '../components/button';
+import arrayStore from '../../../components/array-store';
 
 // More on how to set up stories at: https://storybook.js.org/docs/vue/writing-stories/introduction
 export default {
-  title: 'Example/Button',
-  component: MyButton,
+  title: 'data/array-store',
+  component: arrayStore,
   tags: ['autodocs'],
   argTypes: {
     backgroundColor: {
@@ -21,29 +21,16 @@ export default {
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/vue/writing-stories/args
-export const Primary = {
-  args: {
-    primary: true,
-    label: 'Button',
-  },
-};
-
-export const Secondary = {
-  args: {
-    label: 'Button',
-  },
-};
-
-export const Large = {
-  args: {
-    size: 'large',
-    label: 'Button',
-  },
-};
-
-export const Small = {
-  args: {
-    size: 'small',
-    label: 'Button',
-  },
+export const LoggedIn = {
+  render: () => ({
+    data() {
+      return {
+        dataList: [],
+      };
+    },
+    components: {
+      arrayStore,
+    },
+    template: '<arrayStore v-model="dataList" />',
+  }),
 };

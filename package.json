@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "start": "npm run serve",
+    "dev": "yarn run serve",
     "build": "vue-cli-service build",
+    "start": "yarn run start-doc",
     "start-doc": "yarn storybook",
     "lint": "vue-cli-service lint",
     "storybook": "storybook dev -p 6006",
@@ -13,12 +14,14 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "element-plus": "^2.3.7",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@iconify/json": "^2.2.89",
     "@storybook/addon-essentials": "7.0.24",
     "@storybook/addon-interactions": "7.0.24",
     "@storybook/addon-links": "7.0.24",
@@ -45,6 +48,9 @@
     "sass-loader": "^13.3.2",
     "storybook": "7.0.24",
     "style-loader": "^3.3.3",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-icons": "^0.16.5",
+    "unplugin-vue-components": "^0.25.1",
     "vue-loader": "17.2.2"
   }
 }

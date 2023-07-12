@@ -16,8 +16,8 @@
 </template>
 <script setup>
 import { ref } from 'vue';
-import ledgerTreeItem from './ledgerTreeItem.vue';
-import TreeStore from './model/treeStore';
+import ledgerTreeItem from './ledger-tree-item.vue';
+import TreeStore from './model/tree-store';
 
 const props = defineProps({
   data: Array,

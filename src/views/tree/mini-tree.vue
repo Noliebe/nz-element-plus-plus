@@ -5,7 +5,7 @@
 </template>
 <script setup>
 import { ref } from 'vue';
-import ledgerTree from '@/components/tree';
+import ledgerTree from '@/components/ledger-tree';
 
 const dataSource = ref([
   {

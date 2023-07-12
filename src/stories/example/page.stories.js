@@ -1,6 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import { within, userEvent } from '@storybook/testing-library';
-import MyPage from '../components/page';
+import MyPage from '../../components/page';
 
 export default {
   title: 'Example/Page',
