@@ -1,7 +1,8 @@
 # nz-element-plus-plus
 
 
-## 基于element-plus封装的业务组件
+## Business components encapsulated based on element-plus
+
 
 ## Project setup
 ```
@@ -16,6 +17,6 @@ yarn start
 ### thanks for
  [Vue](https://cli.vuejs.org/config/).
  
- [饿了么](https://element-plus.org).
+ [element-plus](https://element-plus.org).
 
  [Storybook](https://storybook.js.org/).
