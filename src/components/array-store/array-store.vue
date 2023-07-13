@@ -9,7 +9,11 @@
         </el-card>
         <div class="row-btn-wrap">
           <el-dropdown>
-            <el-button type="primary" icon="Plus" circle @click="addRowText(index)" />
+            <el-button type="primary" circle @click="addRowText(index)" >
+              <el-icon>
+                <el-icon-plus />
+              </el-icon>
+            </el-button>
 
             <template #dropdown>
               <el-dropdown-menu>
