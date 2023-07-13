@@ -14,8 +14,8 @@ yarn start
 ```
 
 ### thanks for
- [尤大](https://cli.vuejs.org/config/).
+ [Vue](https://cli.vuejs.org/config/).
  
  [饿了么](https://element-plus.org).
 
- [storybook](https://storybook.js.org/).
+ [Storybook](https://storybook.js.org/).
