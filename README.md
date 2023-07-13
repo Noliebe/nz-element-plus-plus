@@ -1,4 +1,4 @@
-# element-plus-tree-min
+# nz-element-plus-plus
 
 
 ## 基于element-plus封装的业务组件
@@ -13,15 +13,9 @@ yarn install
 yarn start
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+### thanks for
+ [尤大](https://cli.vuejs.org/config/).
+ 
+ [饿了么](https://element-plus.org).
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ [storybook](https://storybook.js.org/).
