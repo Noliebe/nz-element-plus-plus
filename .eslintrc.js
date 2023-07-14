@@ -10,5 +10,8 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'no-param-reassign': ['error', { props: false }],
+    'max-len': ['error', { code: 150 }],
+    'vuejs-accessibility/click-events-have-key-events': 'off',
   },
 };
