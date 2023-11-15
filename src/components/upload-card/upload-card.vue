@@ -25,7 +25,6 @@
       :disabled="disabled" :show-file-list="showFileList" :action="action" :name="name" :data="data" :accept="accept"
       :limit="1" :http-request="request" :on-change="change" :before-upload="before" :on-success="success"
       :on-error="error" :on-exceed="handleExceed">
-
       <!-- @slot 自定义默认内容 -->
       <slot>
         <div class="el-upload--picture-card" :style="style">
@@ -33,8 +32,9 @@
             <!-- <el-icon>
               <el-icon-plus />
             </el-icon> -->
-            <el-icon-plus />
-            <!-- <component :is="icon" /> -->
+            <el-icon>
+              <component :is="icon" />
+            </el-icon>
             <h4 v-if="title">{{ title }}</h4>
           </div>
         </div>
@@ -54,6 +54,8 @@
 <script>
 import { defineAsyncComponent } from 'vue';
 import { genFileId } from 'element-plus';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { Plus } from '@element-plus/icons-vue';
 import config from './config';
 
 const sideCut = defineAsyncComponent(() => import('../side-cut'));
@@ -67,7 +69,7 @@ export default {
     /** 上传卡片宽度 */
     width: { type: Number, default: 148 },
     /** 上传卡片icon */
-    icon: { type: String, default: 'el-icon-plus' },
+    icon: { type: String, default: Plus },
     /** 上传卡片icon标题 */
     title: { type: String, default: '' },
     /** 文件上传类型限制 */

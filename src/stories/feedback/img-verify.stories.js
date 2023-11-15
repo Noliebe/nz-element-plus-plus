@@ -1,11 +1,9 @@
-// eslint-disable-next-line import/no-extraneous-dependencies
-import { User } from '@element-plus/icons-vue';
-import uploadCard from '../../components/upload-card';
+import imgVerify from '../../components/img-verify';
 
 // More on how to set up stories at: https://storybook.js.org/docs/vue/writing-stories/introduction
 export default {
-  title: 'form/uploadCard',
-  component: uploadCard,
+  title: 'form/imgVerify',
+  component: imgVerify,
   tags: ['autodocs'],
   argTypes: {
     backgroundColor: {
@@ -22,13 +20,6 @@ export default {
 };
 
 // More on writing stories with args: https://storybook.js.org/docs/vue/writing-stories/args
-export const 拖拽排序 = {
-  args: {
-    draggable: true,
-    limit: '4',
-    icon: User,
-  },
-};
 
 export const 图片上传前裁切 = {
   args: {
